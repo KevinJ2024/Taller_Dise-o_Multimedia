@@ -1,0 +1,218 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+body{
+	background-color: whitesmoke;
+}
+header{
+	background-color: rgb(36, 40, 43);
+	display: flex;
+	justify-content: space-around;
+	padding: 3vh 0px;
+	border-bottom: solid 6px rgb(18, 140, 189);
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+}
+/* clases */
+.headerText{
+	display: flex;
+	margin: 0px 0px;
+	justify-content: space-between;
+	font-family: sans-serif;
+}
+.sectionOne{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(../images/cabecera.jpg);
+	width: 100%;
+	height: 60vh;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	flex-direction: column;
+}
+.section1_2{
+	padding: 3% 0;
+	display: flex;
+	flex-direction: column;
+}
+.section1_1_2{
+	background-color:rgb(36, 40, 43) ;
+	color:rgb(255, 255, 255) ;
+	display: flex;
+	justify-content: space-between;
+	padding: 3vh 200px;
+}
+.titles-section1-2{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.lorem-section1-2{
+	display: flex;
+	justify-content: space-evenly;
+	text-align: center;
+}
+.section2{
+	padding: 5% 0;
+}
+.section3{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	padding: 10px 0;
+}
+.section4{
+	display: flex;
+	justify-content: space-evenly;
+	padding: 100px 0;
+}
+.Que_hacemos{
+	width: 350px;
+	height: 200px;
+	background-color: rgb(53, 66, 74);
+	color: whitesmoke;
+	display: flex;
+	padding-left: 20px;
+	flex-direction: column;
+	justify-content: center;
+	text-align: left;
+}
+.containers{
+	display: flex;
+	flex-direction: column;
+	
+}
+.text{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.text1_2{
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+	text-align: justify;
+}
+/* estilos de las id */
+/* estilo de la primera seccion */
+#section1{
+	width: 1300px;
+	text-align: center;
+	color: rgb(255, 255, 255);
+}
+/* estilos de los textos */
+#diseño{
+	color: rgb(255, 255, 255);
+	margin: 0px 5px;
+} 
+#multimedia{
+	color: rgb(18, 140, 189);
+}
+a{
+	font-family: sans-serif;
+	color:rgb(255, 255, 255) ;
+	margin: 0px 10px;
+	text-decoration: none;
+}
+#text1{
+	color: rgb(255, 255, 255);
+	font-size: 40px;
+}
+#text2{
+	background-color: rgb(53, 66, 74);
+	color: whitesmoke;
+	padding: 15px 15px;
+}
+#lorem1{
+	width: 700px;
+	margin: 20px 0;
+}
+#email_input{
+	width: 250px;
+	padding: 10px;
+	border: solid 1px rgba(232, 73, 29, 0.632)
+}
+#lorem2{
+	width: 700px;
+}
+#lorem2_1_1{
+	margin: 10px 0;
+	width: 300px;
+}
+#text_area{
+	width: 600px;
+	height: 150px;
+}
+#servicios{
+	margin: 15px;
+}
+#contacto{
+	padding: 30px;
+	font-size: 20px;
+}
+/* amplitud de casillas del contacto */
+#nombre, #e-mail, #numero{
+	width: 600px;
+	height: 30px;
+}
+/* estilos de las imagenes */
+#imgs-div{
+	display: flex;
+	justify-content: space-around;
+}
+#img-section2{
+	padding: 10px 0;
+}
+#img-section2_1{
+	width: 730px;
+}
+#lorem-img{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#logo_html,#logo_css,#logo_compu{
+	display: flex;
+	font-size: 20px;
+	width: 427.489px;
+	padding: 20px 0px;
+	justify-content: center;
+}
+#mapaGoogle{
+	width: 370px;
+	margin: 0 auto;
+/* estilos de los botones */
+}#btn-subscription{
+	background-color: rgb(232, 73, 29);
+	color: whitesmoke;
+	padding: 10px;
+	border: none;
+}#btn-section3{
+	width: 650px;
+	text-align: left;
+	padding: 20px 20px;
+	margin: 5px 0;
+	border: solid .1px rgba(190, 190, 190, 0.581);
+}
+#btn-section4{
+	width: 600px;
+	height: 30px;
+	background-color: rgb(232, 73, 29);
+	color: whitesmoke;
+	border: solid 1px gray;
+}
+/* footer */
+footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color:rgb(18, 140, 189);;
+	color: whitesmoke;
+	height: 80px;
+}
